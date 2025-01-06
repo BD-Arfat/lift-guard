@@ -3,11 +3,10 @@ import image2 from '../../assets/our-service-1 (2).jpg'
 
 const Services = () => {
     return (
-        <section className="bg-white w-11/12 mx-auto  px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
+        <>
+        <section className="bg-white container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
 
-            
-
-            <div className="flex md:items-center justify-center gap-8 mt-28">
+            <div className="flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10 mt-28">
                 {/* Left: Service List */}
                 <div className="w-1/2">
                     <ul className="list-disc list-inside space-y-3 text-gray-700">
@@ -31,12 +30,12 @@ const Services = () => {
                 </div>
 
                 {/* Right: Images */}
-                <div className="w-1/2 grid grid-cols-2 gap-4">
+                <div className="w-1/2 md:w-1/2 mt-8 md:mt-0 flex items-center justify-center">
                     <div className="relative">
                         <img
                             src={image2} // Replace with your image
                             alt="Service 2"
-                            className="rounded-lg w-full"
+                            className="rounded-lg"
                         />
                     </div>
                 </div>
@@ -44,6 +43,7 @@ const Services = () => {
 
 
         </section>
+        </>
     );
 };
 

@@ -13,7 +13,7 @@ const Overview = () => {
 
     return (
         <>
-            <section className="bg-white w-11/12 mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
+            <section className="bg-white container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
                 <div className="md:flex mt-28 md:justify-start md:items-center">
                     {/* Text Content */}
                     <div className="md:w-1/2" data-aos="fade-right">
@@ -27,7 +27,7 @@ const Overview = () => {
                     </div>
 
                     {/* Image Section */}
-                    <div className="md:w-1/2 mt-8 md:mt-0 flex items-center justify-center">
+                    <div className="md:w-1/2 mt-8 md:ms-10 md:mt-0 flex items-center justify-center">
                         <div data-aos="fade-left" className="relative w-full max-w-sm md:max-w-md">
                             <img
                                 src={aboutsImage}
@@ -47,7 +47,7 @@ const Overview = () => {
                 </div>
             </section>
 
-            <div data-aos="fade-up" className="md:w-11/12 md:mx-auto px-8 text-justify md:px-16 mt-10 mb-20">
+            <div data-aos="fade-up" className="md:w-11/12 md:mx-auto px-8 text-justify md:px-24 mt-10 mb-20">
                 <p>
                     With a team of dedicated engineers, technicians, and safety professionals, we combine expertise and innovation to meet international safety standards. Our state-of-the-art equipment, including high-capacity load cells and tensile testing machines, ensures precision and reliability in every project.
                 </p>
