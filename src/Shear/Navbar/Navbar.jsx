@@ -47,6 +47,15 @@ const Navbar = () => {
         Services
       </NavLink>
       <NavLink
+        to="/OurEquipment"
+        className={({ isActive }) =>
+          `${linkClass} ${isActive ? activeLinkClass : ""}`
+        }
+        onClick={closeMenu} // Close menu on click
+      >
+        Our Equipment
+      </NavLink>
+      <NavLink
         to="/contact"
         className={({ isActive }) =>
           `${linkClass} ${isActive ? activeLinkClass : ""}`

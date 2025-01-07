@@ -13,9 +13,7 @@ const Services = () => {
         }, []);
     return (
         <>
-        <div className=" md:ms-36 lg:ms-52 lg:pb-5 xl:ms-48 pt-28 xl:-mb-20 lg:-pb-14 text-center md:text-start text-3xl font-bold text-yellow-400 ">
-            <h1 data-aos="fade-right">Our Services</h1>
-        </div>
+        <h2 className="text-3xl font-bold text-yellow-400 text-center pt-24 mb-10">OUR SERVICE</h2>
         <section className="bg-white container mx-auto px-4 md:px-16 md:mb-20 md:flex flex-col md:flex-row items-center justify-center">
         
             <div className="md:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">

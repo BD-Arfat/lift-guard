@@ -13,11 +13,12 @@ const Overview = () => {
 
     return (
         <>
+        <h2 className="text-3xl font-bold text-yellow-400 text-center pt-24">ABOUTS</h2>
             <section className="bg-white container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
-                <div className="md:flex mt-28 md:justify-start md:items-center">
+                <div className="md:flex mt-10 md:justify-start md:items-center">
                     {/* Text Content */}
                     <div className="md:w-1/2" data-aos="fade-right">
-                        <h2 className="text-3xl font-bold text-yellow-400 mb-4">ABOUTS</h2>
+                        
                         <p className="text-justify">
                             Welcome to Liftguard Solutions, a proud sister concern of KR Group and a leading name in safety solutions in Bangladesh. We specialize in innovative and reliable safety technologies for lifting gear and heavy equipment, ensuring the highest standards of workplace safety and accident prevention.
                         </p>
@@ -47,7 +48,7 @@ const Overview = () => {
                 </div>
             </section>
 
-            <div data-aos="fade-up" className="md:w-11/12 md:mx-auto px-8 text-justify md:px-24 mt-10 mb-20">
+            <div data-aos="fade-up" className="md:w-11/12 mx-4 md:mx-auto px-0 text-justify md:px-10 lg:px-28 xl:px-16 mt-10 mb-20">
                 <p>
                     With a team of dedicated engineers, technicians, and safety professionals, we combine expertise and innovation to meet international safety standards. Our state-of-the-art equipment, including high-capacity load cells and tensile testing machines, ensures precision and reliability in every project.
                 </p>
