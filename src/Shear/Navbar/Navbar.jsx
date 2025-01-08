@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from '../../assets/logo.jpeg';
 
@@ -47,15 +47,6 @@ const Navbar = () => {
         Services
       </NavLink>
       <NavLink
-        to="/OurEquipment"
-        className={({ isActive }) =>
-          `${linkClass} ${isActive ? activeLinkClass : ""}`
-        }
-        onClick={closeMenu} // Close menu on click
-      >
-        Our Equipment
-      </NavLink>
-      <NavLink
         to="/contact"
         className={({ isActive }) =>
           `${linkClass} ${isActive ? activeLinkClass : ""}`
@@ -72,7 +63,8 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <img className="w-16 rounded-md" src={logo} alt="Logo" />
+          <Link to={'/'}>
+          <img className="w-16 rounded-md" src={logo} alt="Logo" /></Link>
         </div>
 
         {/* Desktop Menu */}

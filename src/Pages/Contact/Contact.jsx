@@ -11,9 +11,10 @@ const Contact = () => {
         }, []);
   return (
     <div className="container mx-auto pt-20 px-4 md:px-16">
-      <h2 className="text-center text-3xl font-bold text-yellow-500 mb-8 mt-2">
+      <h2 className="text-center text-3xl font-bold text-yellow-500 mt-2">
         Contact Us
       </h2>
+      <hr className="border border-black h-1 bg-black w-48 mx-auto mt-1 mb-10"/>
       
       <div data-aos="fade-up" className="flex flex-col md:flex-row items-center gap-8 mb-10">
         {/* Left: Contact Information */}

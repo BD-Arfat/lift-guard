@@ -13,14 +13,15 @@ const Services = () => {
         }, []);
     return (
         <>
-        <h2 className="text-3xl font-bold text-yellow-400 text-center pt-24 mb-10">OUR SERVICE</h2>
+        <h2 className="text-3xl font-bold text-yellow-400 text-center pt-24 ">OUR SERVICE</h2>
+        <hr className="border border-black h-1 bg-black w-56 mx-auto mt-1 mb-10"/>
         <section className="bg-white container mx-auto px-4 md:px-16 md:mb-20 md:flex flex-col md:flex-row items-center justify-center">
         
-            <div className="md:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
+            <div className="lg:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
                 {/* Left: Service List */}
-                <div data-aos="fade-right" className="md:w-1/2">
+                <div data-aos="fade-right" className="lg:w-1/2">
                     <ul className="list-disc list-inside space-y-3 text-gray-700">
-                    <h1 className="font-bold text-yellow-400 text-2xl">Scope Of Inspection & Load Test</h1>
+                    <h1 className="font-extrabold text-black text-2xl">Scope Of Inspection & Load Test</h1>
                         <li>Passengers & cargo lift inspection & load test.</li>
                         <li>Man lift inspection & load test.</li>
                         <li>Forklift inspection & load test.</li>
@@ -41,7 +42,7 @@ const Services = () => {
                 </div>
 
                 {/* Right: Images */}
-                <div className=" md:w-1/2 mt-8 md:mt-0 flex items-center justify-center mb-20">
+                <div className=" lg:w-1/2 mt-8 md:mt-0 flex items-center justify-center mb-20">
                     <div data-aos="fade-left" className="relative">
                         <img
                             src={image2} // Replace with your image
@@ -59,9 +60,9 @@ const Services = () => {
 
         <section data-aos="fade-up" className="bg-white container mx-auto px-4 md:px-16 md:mb-20 md:flex flex-col md:flex-row items-center justify-center">
         
-            <div className="md:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
+            <div className="lg:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
             {/* Right: Images */}
-            <div className=" md:w-1/2 mt-8 md:mt-0 flex items-center justify-center mb-10">
+            <div className=" lg:w-1/2 mt-8 md:mt-0 flex items-center justify-center mb-10">
                     <div className="relative">
                         <img
                             src={image1} // Replace with your image
@@ -71,9 +72,9 @@ const Services = () => {
                     </div>
                 </div>
                 {/* Left: Service List */}
-                <div className="md:w-1/2">
+                <div className="lg:w-1/2">
                     <ul className="list-disc list-inside space-y-3 text-gray-700">
-                        <h1 className="font-bold text-yellow-400 text-2xl">Scope Of Inspection & Load Test</h1>
+                        <h1 className="font-extrabold text-black text-2xl">Scope Of Inspection & Load Test</h1>
                         <li>Passengers & cargo lift inspection & load test.</li>
                         <li>Man lift inspection & load test.</li>
                         <li>Forklift inspection & load test.</li>

@@ -14,10 +14,11 @@ const Overview = () => {
     return (
         <>
         <h2 className="text-3xl font-bold text-yellow-400 text-center pt-24">ABOUTS</h2>
+        <hr className="border border-black h-1 bg-black w-44 mx-auto mt-1 mb-10"/>
             <section className="bg-white container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-center">
-                <div className="md:flex mt-10 md:justify-start md:items-center">
+                <div className="lg:flex mt-10 md:justify-start md:items-center">
                     {/* Text Content */}
-                    <div className="md:w-1/2" data-aos="fade-right">
+                    <div className="lg:w-1/2" data-aos="fade-right">
                         
                         <p className="text-justify">
                             Welcome to Liftguard Solutions, a proud sister concern of KR Group and a leading name in safety solutions in Bangladesh. We specialize in innovative and reliable safety technologies for lifting gear and heavy equipment, ensuring the highest standards of workplace safety and accident prevention.
@@ -28,7 +29,7 @@ const Overview = () => {
                     </div>
 
                     {/* Image Section */}
-                    <div className="md:w-1/2 mt-8 md:ms-10 md:mt-0 flex items-center justify-center">
+                    <div className="lg:w-1/2 mt-8 md:ms-10 md:mt-10 lg:0 flex items-center justify-center">
                         <div data-aos="fade-left" className="relative w-full max-w-sm md:max-w-md">
                             <img
                                 src={aboutsImage}
