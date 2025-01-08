@@ -14,23 +14,23 @@ import image1 from '../../../assets/ca-image-1.jpeg'
 
 const Banner = () => {
     return (
-        <div className="pt-20 mb-20">
+        <div className="pt-[66px] mb-20">
             <Swiper
                 navigation={true}
                 modules={[Navigation]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className='w-full h-[500px]' src={image1} alt="" />
+                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[500px]' src={image1} alt="" />
+                    <img className='md:w-full md:h-[500px] sm:h-20' src='http://krsteelstructure.com/wp-content/uploads/2020/11/KR-Steel-Structure-Ltd-Slider-2.jpg' alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[500px]' src={image1} alt="" />
+                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[500px]' src={image1} alt="" />
+                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>
