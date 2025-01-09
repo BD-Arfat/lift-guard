@@ -22,7 +22,7 @@ const Services = () => {
                     {/* Left: Service List */}
                     <div data-aos="fade-right" className="lg:w-1/2">
                         <ul className="list-disc list-inside space-y-3 text-gray-700">
-                            <h1 className="font-extrabold text-black text-2xl">Scope Of Inspection & Load Test</h1>
+                            <h1 className="font-extrabold text-black text-2xl uppercase">Scope Of Inspection & Load Test</h1>
                             <li>Passengers & cargo lift inspection & load test.</li>
                             <li>Man lift inspection & load test.</li>
                             <li>Forklift inspection & load test.</li>
@@ -59,7 +59,7 @@ const Services = () => {
 
             {/* more abouts */}
 
-            <section data-aos="fade-up" className="bg-white container mx-auto px-4 md:px-16 md:mb-20 md:flex flex-col md:flex-row items-center justify-center">
+            <section data-aos="fade-up" className="bg-white container mx-auto px-4 md:px-16 md:mb-10 md:flex flex-col md:flex-row items-center justify-center">
 
                 <div className="lg:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
                     {/* Right: Images */}
@@ -75,23 +75,12 @@ const Services = () => {
                     {/* Left: Service List */}
                     <div className="lg:w-1/2">
                         <ul className="list-disc list-inside space-y-3 text-gray-700">
-                            <h1 className="font-extrabold text-black text-2xl">Scope Of Inspection & Load Test</h1>
-                            <li>Passengers & cargo lift inspection & load test.</li>
-                            <li>Man lift inspection & load test.</li>
-                            <li>Forklift inspection & load test.</li>
-                            <li>Tower crane inspection & load test.</li>
-                            <li>Overhead crane inspection & load test.</li>
-                            <li>Excavator & wheel loader inspection.</li>
-                            <li>Mobile crane inspection & load test.</li>
-                            <li>Electric or diesel winch machine inspection & load test.</li>
-                            <li>Truck crane inspection & load test.</li>
-                            <li>
-                                All types of lifting equipment & lifting gear inspection & load
-                                test (webbing sling, round sling, chain sling automotive hoist,
-                                manual chain block, lever hoist, chain block, lifting pulley, all
-                                types of clamps, lifting boom, hydraulic trolley, eye bolt,
-                                shackles, etc.)
-                            </li>
+                            <h1 className="font-extrabold text-black text-2xl uppercase">Scope of inspectin & Load test</h1>
+                            <li>Pressure gauge calibration & pressure test.</li>
+                            <li>All compressor thickness & pressere test.</li>
+                            <li>Safety valve inspection & pressure test.</li>
+                            <li>Pressure measuring instrument.</li>
+                            
                         </ul>
                     </div>
 
@@ -103,7 +92,7 @@ const Services = () => {
 
             <section data-aos="fade-up" className="bg-gray-50 py-16">
 
-                <div>
+                <div className="md:w-11/12 md:mx-auto">
                     <div>
                         <h1 className="text-3xl font-extrabold text-gray-800 leading-snug text-center">
                             Ensure Safety and Quality with Our NDT Services
@@ -127,9 +116,23 @@ const Services = () => {
                         <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full">
                             <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Industries We Serve</h2>
                             <p className="text-gray-600 leading-relaxed">
-                                We proudly offer our expert NDT solutions across various industries, including Oil and Gas, Aerospace, Construction, Power Generation, Manufacturing, and Automotive.
+                                We proudly offer our expert NDT solutions across various
                             </p>
-
+                            <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2">
+                                <div className="flex md:gap-10 gap-3 text-sm">
+                                    <div>
+                                        <li>industries</li>
+                                        <li>including Oil and Gas</li>
+                                        <li>Aerospace</li>
+                                        <li>Construction</li>
+                                    </div>
+                                    <div>
+                                        <li>Power Generation</li>
+                                        <li>Manufacturing</li>
+                                        <li>and Automotive.</li>
+                                    </div>
+                                </div>
+                            </ul>
                             {/* <!-- Contact Information --> */}
                             <div className="mt-6 text-gray-600">
                                 <p>📞 <span className="font-bold">01321229107</span></p>
@@ -147,7 +150,7 @@ const Services = () => {
                 </div>
 
                 {/* Footer Section */}
-                
+
             </section>
 
 
