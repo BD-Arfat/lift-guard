@@ -11,6 +11,10 @@ import 'swiper/css/navigation';
 // import { Navigation } from 'swiper';
 
 import image1 from '../../../assets/ca-image-1.jpeg'
+import image2 from '../../../assets/ca-image-2.jpeg'
+import image3 from '../../../assets/ca-image-3.jpeg'
+import image4 from '../../../assets/ca-image-4.jpeg'
+import image5 from '../../../assets/ca-image-5.jpeg'
 
 const Banner = () => {
     return (
@@ -21,16 +25,19 @@ const Banner = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
+                    <img className='md:w-full md:h-[580px] sm:h-20' src={image1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='md:w-full md:h-[500px] sm:h-20' src='http://krsteelstructure.com/wp-content/uploads/2020/11/KR-Steel-Structure-Ltd-Slider-2.jpg' alt="" />
+                    <img className='md:w-full md:h-[580px] sm:h-20' src={image2} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
+                    <img className='md:w-full md:h-[580px] sm:h-20' src={image3} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='md:w-full md:h-[500px] sm:h-20' src={image1} alt="" />
+                    <img className='md:w-full md:h-[580px] sm:h-20' src={image4} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='md:w-full md:h-[580px] sm:h-20' src={image5} alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>
