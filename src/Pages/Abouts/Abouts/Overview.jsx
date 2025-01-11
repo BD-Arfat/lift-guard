@@ -37,7 +37,7 @@ const Overview = () => {
                                 className="rounded-lg shadow-lg"
                             />
                             {/* Logo Overlay */}
-                            <div className="absolute bottom-0 right-0 transform translate-x-4 translate-y-4 bg-white rounded-full p-2 shadow-md">
+                            <div className="absolute bottom-0 shadow-2xl right-0 transform translate-x-4 translate-y-4 bg-white rounded-full p-2 shadow-md">
                                 <img
                                     src="https://via.placeholder.com/50" // Replace this with your logo path or link
                                     alt="Logo"

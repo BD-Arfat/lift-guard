@@ -77,9 +77,10 @@ const Services = () => {
                         <ul className="list-disc list-inside space-y-3 text-gray-700 font-oswald">
                             <h1 className="font-extrabold text-black text-2xl uppercase">Scope of inspectin & pressure test</h1>
                             <li>Pressure gauge calibration & pressure test.</li>
-                            <li>All compressor thickness & pressere test.</li>
+                            <li>Air compressor thickness & pressere test.</li>
                             <li>Safety valve inspection & pressure test.</li>
                             <li>Pressure measuring instrument.</li>
+                            <li>Pressure vessel inspection and hydro test.</li>
                             
                         </ul>
                     </div>
@@ -115,10 +116,10 @@ const Services = () => {
                                 We offer a comprehensive range of NDT services tailored to your needs:
                             </p>
                             <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2 font-oswald">
-                                <li>Ultrasonic Testing (UT): Detect internal flaws and material thickness with precision.</li>
-                                <li>Radiographic Testing (RT): Identify hidden defects using advanced imaging techniques.</li>
-                                <li>Magnetic Particle Testing (MT): Surface and near-surface flaw detection for ferromagnetic materials.</li>
-                                <li>Liquid Penetrant Testing (PT): Highlight surface defects with visible or fluorescent dyes.</li>
+                                <li><span className="font-bold text-sm">Ultrasonic Testing (UT):</span> Detect internal flaws and material thickness with precision.</li>
+                                <li><span className="font-bold text-sm">Radiographic Testing (RT):</span> Identify hidden defects using advanced imaging techniques.</li>
+                                <li><span className="font-bold text-sm">Magnetic Particle Testing (MT):</span> Surface and near-surface flaw detection for ferromagnetic materials.</li>
+                                <li><span className="font-bold text-sm">Liquid Penetrant Testing (PT):</span> Highlight surface defects with visible or fluorescent dyes.</li>
                             </ul>
                         </div>
                         {/* card number 2 */}

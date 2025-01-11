@@ -29,7 +29,7 @@ const Abouts = () => {
                     </button>
                     </Link>
                 </div>
-                <div data-aos="fade-left" className='w-[490px] mx-auto shadow-2xl rounded-xl'>
+                <div data-aos="fade-left" className='md:w-[490px] mx-auto shadow-2xl rounded-xl'>
                     <img className=' rounded-xl' src={image} alt="" />
                 </div>
             </div>
