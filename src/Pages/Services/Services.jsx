@@ -59,7 +59,7 @@ const Services = () => {
 
             {/* more abouts */}
 
-            <section data-aos="fade-up" className="bg-white container mx-auto px-4 md:px-16 md:mb-10 md:flex flex-col md:flex-row items-center justify-center">
+            <section data-aos="fade-up" className="bg-white container mx-auto px-4 md:px-16 md:mb-10 md:flex flex-col md:flex-row items-center justify-center md:w-11/12 md:mx-auto">
 
                 <div className="lg:flex md:items-center justify-center md:w-11/12 md:mx-auto gap-10">
                     {/* Right: Images */}
@@ -100,17 +100,24 @@ const Services = () => {
                         </h1>
                     </div>
                     <div>
-                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 md:w-3/5 mx-4 md:mx-auto mt-10">
-                            <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">About Us</h2>
+                    <div className="md:w-11/12 md:mx-auto">
+                    <div className="md:flex md:w-11/12 items-center justify-center gap-10 shadow-lg  rounded-md bg-white p-6 border-t-4 border-yellow-500  mx-4 md:mx-auto mt-10">
+                            <div className="md:w-1/2 mx-auto">
+                            <h2 className="font-bold text-xl lg:text-4xl text-gray-700 mb-4 uppercase font-oswald">About Us</h2>
                             <p className="text-gray-600 leading-relaxed text-justify font-oswald">
                             At Liftguard Solution , we specialize in cutting-edge Nondestructive Testing (NDT) solutions designed to ensure the safety, reliability, and performance of your equipment and structures. With a team of certified professionals and state-of-the-art technology, we deliver accurate and reliable results that help you meet industry standards and maintain operational excellence.
                             </p>
-                            
+                            </div>
+                            <div className="md:w-96 mt-6 md:mt-0 w-full">
+                                    <img className="rounded-lg w-96 mx-auto" src="https://files.oaiusercontent.com/file-7eBDV63NyRTXVEDiaiUXah?se=2025-01-12T08%3A09%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db2c93fec-bab2-4d01-bf44-de6d0ee4886b.webp&sig=43ugyV3nxN9fxp5WRCuiovE5t%2BmGscKJ9GpDfns6khs%3D" alt="" />
                         </div>
+                        </div>
+                        
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  w-11/12 mx-auto ">
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  md:w-11/12 mx-auto ">
 
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full">
+                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full md:w-11/12 md:mx-auto">
                             <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Our NDT Services</h2>
                             <p className="text-gray-600 leading-relaxed font-oswald text-lg">
                                 We offer a comprehensive range of NDT services tailored to your needs:
@@ -123,7 +130,7 @@ const Services = () => {
                             </ul>
                         </div>
                         {/* card number 2 */}
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full">
+                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full md:w-11/12 md:mx-auto">
                             <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">Industries We Serve</h2>
                             <p className="text-gray-600 leading-relaxed font-oswald">
                                 We proudly offer our expert NDT solutions across various
