@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import image2 from '../../assets/our-service-1 (2).jpg'
 import image1 from '../../assets/our-service-1 (1).jpg'
+import ndt from '../../assets/ser-1.webp'
 // import image3 from '../../assets/ca-image-1.jpeg'
 
 const Services = () => {
@@ -95,7 +96,7 @@ const Services = () => {
 
                 <div className="md:w-11/12 md:mx-auto">
                     <div>
-                        <h1 className="text-3xl font-extrabold text-gray-800 leading-snug text-center font-oswald">
+                        <h1 className="md:text-3xl text-lg mx-4 md:mx-0 font-extrabold text-gray-800 leading-snug text-center font-oswald">
                             Ensure Safety and Quality with Our NDT Services
                         </h1>
                     </div>
@@ -109,7 +110,7 @@ const Services = () => {
                             </p>
                             </div>
                             <div className="md:w-96 mt-6 md:mt-0 w-full">
-                                    <img className="rounded-lg w-96 mx-auto" src="https://files.oaiusercontent.com/file-7eBDV63NyRTXVEDiaiUXah?se=2025-01-12T08%3A09%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db2c93fec-bab2-4d01-bf44-de6d0ee4886b.webp&sig=43ugyV3nxN9fxp5WRCuiovE5t%2BmGscKJ9GpDfns6khs%3D" alt="" />
+                                    <img className="rounded-lg w-96 mx-auto" src={ndt} alt="" />
                         </div>
                         </div>
                         

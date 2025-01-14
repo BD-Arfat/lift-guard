@@ -24,7 +24,7 @@ const Banner = () => {
             <Swiper
                 navigation={true}
                 modules={[Navigation]}
-                className="mySwiper"
+                className="mySwiper "
             >
                 {/* First Slide with Welcome Text */}
                 <SwiperSlide>

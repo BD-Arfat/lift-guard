@@ -23,13 +23,13 @@ const Abouts = () => {
                         Founded with a mission to revolutionize safety in industrial and construction environments, Liftguard Solutions is committed to designing and delivering cutting-edge solutions that protect personnel and assets during lifting operations. Our services include comprehensive inspection, load testing, and pressure testing for a wide range of equipment, including cranes, forklifts, compressors, and lifting gear
                     </p> */}
                     <Link to={'/Overview'}>
-                    <button className="flex items-center w-80 md:w-full lg:w-60 md:mx-0 mb-10 mx-auto justify-center mt-5 gap-2 px-4 py-2 border-2 border-blue-950  bg-white hover:bg-blue-950 hover:text-white rounded-md transition-all duration-200 font-bold">
+                    <button className="flex items-center  w-40 md:w-full lg:w-60 md:mx-0 mb-10 mx-auto justify-center mt-5 gap-2 px-4 py-2 border-2 border-blue-950  bg-white hover:bg-blue-950 hover:text-white rounded-md transition-all duration-200 font-bold">
                         <span className="material-icons text-lg ">arrow_forward</span>
-                        View Monre Abouts
+                        <span className='text-[10px] md:text-lg'>View Monre Abouts</span>
                     </button>
                     </Link>
                 </div>
-                <div data-aos="fade-left" className='md:w-[490px] mx-auto shadow-2xl rounded-xl'>
+                <div data-aos="fade-left" className='md:w-[490px] mx-4 md:mx-auto shadow-2xl rounded-xl'>
                     <img className=' rounded-xl' src={image} alt="" />
                 </div>
             </div>
