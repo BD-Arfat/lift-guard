@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Map from "./Map";
 
 const Contact = () => {
     useEffect(() => {
@@ -51,6 +52,9 @@ const Contact = () => {
             className="rounded-lg shadow-lg w-full"
           />
         </div>
+      </div>
+      <div>
+        <Map></Map>
       </div>
     </div>
   );

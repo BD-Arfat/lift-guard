@@ -8,7 +8,7 @@ import ServiceProducts from './ServiceProducts/ServiceProducts';
 
 const Service = () => {
     return (
-        <div className="py-16 bg-gray-100">
+        <div className="py-16 bg-gray-100 font-oswald">
             <div className="container mx-auto px-6 lg:px-20">
                 {/* Section Title */}
                 <div className="text-center mb-10">

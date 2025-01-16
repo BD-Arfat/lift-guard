@@ -9,7 +9,7 @@ const Why_us = () => {
             .then(data => setChooses(data))
     }, [])
     return (
-        <div className='md:w-11/12 md:mx-auto'>
+        <div className='md:w-11/12 md:mx-auto font-oswald'>
             <section class=" py-20">
                 <div class="container mx-auto px-4">
                     <div class="max-w-2xl mx-auto text-center">

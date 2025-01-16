@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 // import { Navigation } from 'swiper';
 
 import image6 from '../../../assets/wel-4.jpg';
-import image1 from '../../../assets/ca-image-1.jpeg';
+import image1 from '../../../assets/m-1.jpg';
 import image2 from '../../../assets/ca-image-2.jpeg';
 import image3 from '../../../assets/ca-image-3.jpeg';
 import image4 from '../../../assets/ca-image-4.jpeg';
@@ -20,7 +20,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className="pt-[66px] mb-20 mx-auto">
+        <div className="pt-[66px] mb-20 mx-auto font-oswald">
             <Swiper
                 navigation={true}
                 modules={[Navigation]}
@@ -68,7 +68,7 @@ const Banner = () => {
                 {/* Other Slides */}
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[580px] object-cover"
+                        className="w-full h-auto max-h-[380px] object-cover "
                         src={image1}
                         alt="Slide 1"
                     />
