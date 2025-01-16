@@ -11,7 +11,7 @@ const ServiceProducts = ({ service }) => {
 
     return (
         <div>
-            <div className="bg-white shadow-md rounded-lg sm:h-[420px] md:h-[380px]  overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg sm:h-[420px] md:h-[340px]  overflow-hidden">
                 <img
                     src={image}
                     alt="Service"

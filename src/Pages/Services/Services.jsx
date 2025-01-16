@@ -118,7 +118,7 @@ const Services = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  md:w-11/12 mx-auto ">
 
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full md:w-11/12 md:mx-auto">
+                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  md:w-11/12 md:mx-auto mx-5">
                             <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Our NDT Services</h2>
                             <p className="text-gray-600 leading-relaxed font-oswald text-lg">
                                 We offer a comprehensive range of NDT services tailored to your needs:
@@ -131,7 +131,7 @@ const Services = () => {
                             </ul>
                         </div>
                         {/* card number 2 */}
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full md:w-11/12 md:mx-auto">
+                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 mx-5 md:w-11/12 md:mx-auto">
                             <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">Industries We Serve</h2>
                             <p className="text-gray-600 leading-relaxed font-oswald">
                                 We proudly offer our expert NDT solutions across various
