@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import data from '../../../serviceData';
 import ServiceProducts from './ServiceProducts/ServiceProducts';
+import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
@@ -42,12 +43,12 @@ const Service = () => {
 
                 {/* View More Button */}
                 <div className="text-center mt-10">
-                    <a
-                        href="/services"
+                    <Link
+                        to={"/Services"}
                         className="px-6 py-3 bg-blue-600 text-white rounded-lg text-sm md:text-base font-medium shadow-md hover:bg-blue-700 transition duration-300"
                     >
                         View More Services
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

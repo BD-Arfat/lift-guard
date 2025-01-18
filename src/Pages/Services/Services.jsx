@@ -82,7 +82,7 @@ const Services = () => {
                             <li>Safety valve inspection & pressure test.</li>
                             <li>Pressure measuring instrument.</li>
                             <li>Pressure vessel inspection and hydro test.</li>
-                            
+
                         </ul>
                     </div>
 
@@ -92,84 +92,86 @@ const Services = () => {
 
             </section>
 
-            <section data-aos="fade-up" className="bg-gray-50 py-16">
+            <div>
+                <h1 className="md:text-3xl text-lg text-center mx-4 md:mx-0 font-extrabold text-gray-800 leading-snug font-oswald">
+                    Ensure Safety and Quality with Our NDT Services
+                </h1>
+                <div className="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
 
-                <div className="md:w-11/12 md:mx-auto">
                     <div>
-                        <h1 className="md:text-3xl text-lg mx-4 md:mx-0 font-extrabold text-gray-800 leading-snug text-center font-oswald">
-                            Ensure Safety and Quality with Our NDT Services
-                        </h1>
-                    </div>
-                    <div>
-                    <div className="md:w-11/12 md:mx-auto">
-                    <div className="md:flex md:w-11/12 items-center justify-center gap-10 shadow-lg  rounded-md bg-white p-6 border-t-4 border-yellow-500  mx-4 md:mx-auto mt-10">
-                            <div className="md:w-1/2 mx-auto">
-                            <h2 className="font-bold text-xl lg:text-4xl text-gray-700 mb-4 uppercase font-oswald">About Us</h2>
-                            <p className="text-gray-600 leading-relaxed text-justify font-oswald">
-                            At Liftguard Solution , we specialize in cutting-edge Nondestructive Testing (NDT) solutions designed to ensure the safety, reliability, and performance of your equipment and structures. With a team of certified professionals and state-of-the-art technology, we deliver accurate and reliable results that help you meet industry standards and maintain operational excellence.
-                            </p>
-                            </div>
-                            <div className="md:w-96 mt-6 md:mt-0 w-full">
-                                    <img className="rounded-lg w-96 mx-auto" src={ndt} alt="" />
-                        </div>
-                        </div>
-                        
-                    </div>
-                    </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  md:w-11/12 mx-auto ">
-
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  md:w-11/12 md:mx-auto mx-5">
-                            <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Our NDT Services</h2>
-                            <p className="text-gray-600 leading-relaxed font-oswald text-lg">
-                                We offer a comprehensive range of NDT services tailored to your needs:
-                            </p>
-                            <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2 font-oswald">
-                                <li><span className="font-bold text-sm">Ultrasonic Testing (UT):</span> Detect internal flaws and material thickness with precision.</li>
-                                <li><span className="font-bold text-sm">Radiographic Testing (RT):</span> Identify hidden defects using advanced imaging techniques.</li>
-                                <li><span className="font-bold text-sm">Magnetic Particle Testing (MT):</span> Surface and near-surface flaw detection for ferromagnetic materials.</li>
-                                <li><span className="font-bold text-sm">Liquid Penetrant Testing (PT):</span> Highlight surface defects with visible or fluorescent dyes.</li>
-                            </ul>
-                        </div>
-                        {/* card number 2 */}
-                        <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 mx-5 md:w-11/12 md:mx-auto">
-                            <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">Industries We Serve</h2>
-                            <p className="text-gray-600 leading-relaxed font-oswald">
-                                We proudly offer our expert NDT solutions across various
-                            </p>
-                            <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2 font-oswald">
-                                <div className="flex md:gap-10 gap-3 text-sm">
-                                    <div>
-                                        <li>industries</li>
-                                        <li>including Oil and Gas</li>
-                                        <li>Aerospace</li>
-                                        <li>Construction</li>
-                                    </div>
-                                    <div>
-                                        <li>Power Generation</li>
-                                        <li>Manufacturing</li>
-                                        <li>and Automotive.</li>
-                                    </div>
+                        <div className="md:w-11/12 md:mx-auto">
+                            <div className="md:flex  items-center justify-center gap-10 shadow-lg  rounded-md bg-white p-6 border-t-4 border-yellow-500  mx-4 md:mx-auto mt-10">
+                                <div className="md:w-1/2 mx-auto">
+                                    <h2 className="font-bold text-xl lg:text-4xl text-gray-700 mb-4 uppercase font-oswald">About Us</h2>
+                                    <p className="text-gray-600 leading-relaxed text-justify font-oswald">
+                                        At Liftguard Solution , we specialize in cutting-edge Nondestructive Testing (NDT) solutions designed to ensure the safety, reliability, and performance of your equipment and structures. With a team of certified professionals and state-of-the-art technology, we deliver accurate and reliable results that help you meet industry standards and maintain operational excellence.
+                                    </p>
                                 </div>
-                            </ul>
-                            {/* <!-- Contact Information --> */}
-                            <div className="mt-6 text-gray-600 font-oswald">
-                                <p>📞 <span className="font-bold">01321229107</span></p>
-                                <p>📩 <span className="font-bold">solutionliftguard@gmail.com</span></p>
+                                <div className="md:w-96 mt-6 md:mt-0 w-full">
+                                    <img className="rounded-lg w-96 mx-auto" src={ndt} alt="" />
+                                </div>
                             </div>
 
-                            <p className="mt-6 text-yellow-600 font-semibold font-oswald">
-                                Partner with us for peace of mind and the assurance of quality. Your safety is our priority!
-                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            {/*  */}
+
+            <div className="relative flex flex-col w-11/12  items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  md:w-11/12 mx-auto ">
+
+                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  md:w-11/12 md:mx-auto mx-5">
+                        <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Our NDT Services</h2>
+                        <p className="text-gray-600 leading-relaxed font-oswald text-lg">
+                            We offer a comprehensive range of NDT services tailored to your needs:
+                        </p>
+                        <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2 font-oswald">
+                            <li><span className="font-bold text-sm">Ultrasonic Testing (UT):</span> Detect internal flaws and material thickness with precision.</li>
+                            <li><span className="font-bold text-sm">Radiographic Testing (RT):</span> Identify hidden defects using advanced imaging techniques.</li>
+                            <li><span className="font-bold text-sm">Magnetic Particle Testing (MT):</span> Surface and near-surface flaw detection for ferromagnetic materials.</li>
+                            <li><span className="font-bold text-sm">Liquid Penetrant Testing (PT):</span> Highlight surface defects with visible or fluorescent dyes.</li>
+                        </ul>
+                    </div>
+                    {/* card number 2 */}
+                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 mx-5 md:w-11/12 md:mx-auto">
+                        <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">Industries We Serve</h2>
+                        <p className="text-gray-600 leading-relaxed font-oswald">
+                            We proudly offer our expert NDT solutions across various
+                        </p>
+                        <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2 font-oswald">
+                            <div className="flex md:gap-10 gap-3 text-sm">
+                                <div>
+                                    <li>industries</li>
+                                    <li>including Oil and Gas</li>
+                                    <li>Aerospace</li>
+                                    <li>Construction</li>
+                                </div>
+                                <div>
+                                    <li>Power Generation</li>
+                                    <li>Manufacturing</li>
+                                    <li>and Automotive.</li>
+                                </div>
+                            </div>
+                        </ul>
+                        {/* <!-- Contact Information --> */}
+                        <div className="mt-6 text-gray-600 font-oswald">
+                            <p>📞 <span className="font-bold">01321229107</span></p>
+                            <p>📩 <span className="font-bold">solutionliftguard@gmail.com</span></p>
                         </div>
 
-
-
+                        <p className="mt-6 text-yellow-600 font-semibold font-oswald">
+                            Partner with us for peace of mind and the assurance of quality. Your safety is our priority!
+                        </p>
                     </div>
+
+
+
                 </div>
 
-                {/* Footer Section */}
-
-            </section>
+            </div>
 
 
         </>

@@ -20,7 +20,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className="pt-[66px] mb-20 mx-auto font-oswald">
+        <div className="pt-[66px] mb-20 mx-auto  font-oswald">
             <Swiper
                 navigation={true}
                 modules={[Navigation]}
