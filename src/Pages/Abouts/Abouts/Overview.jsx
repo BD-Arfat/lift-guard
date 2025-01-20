@@ -15,7 +15,7 @@ const Overview = () => {
         <section className="bg-gray-100 py-16">
             {/* Header Section */}
             <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold text-black font-oswald uppercase">
+                <h2 className="text-4xl font-bold text-black font-oswald uppercase pt-7">
                     About Us
                 </h2>
                 <hr className="border-t-4 border-black w-24 mx-auto mt-2" />

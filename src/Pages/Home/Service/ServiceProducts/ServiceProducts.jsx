@@ -11,25 +11,16 @@ const ServiceProducts = ({ service }) => {
 
     return (
         <div>
-            <div className="bg-white shadow-md rounded-lg sm:h-[420px] md:h-[340px]  overflow-hidden">
-                <img
-                    src={image}
-                    alt="Service"
-                    className="w-96 mx-auto h-52 object-cover"
-                />
-                <div className="p-6">
-                    <h3 className="text-lg font-bold text-gray-800 mb-3">
-                        {name}
-                    </h3>
-                    <p className="text-gray-600 text-sm mb-4">
-                        {showFullText ? proposition : proposition.slice(0, 50) + '...'}
-                        <button
-                            onClick={toggleText}
-                            className="text-blue-600 hover:underline ml-2"
-                        >
-                            {showFullText ? 'Show Less' : 'See More'}
-                        </button>
-                    </p>
+            <div
+                class="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+                <img src={image} class="w-full mb-3" />
+                <div class="p-4 pt-2">
+                    <div class="mb-8">
+
+                        <a href="#" class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">{name}</a>
+                        <p class="text-gray-700 text-sm">{proposition}</p>
+                    </div>
+
                 </div>
             </div>
         </div>

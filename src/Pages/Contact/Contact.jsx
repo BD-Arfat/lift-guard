@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
 
         {/* Right: Image or Other Information */}
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 w-full ">
           <img
             src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?ga=GA1.1.418619699.1734761489&semt=ais_hybrid"
             alt="Contact Us"

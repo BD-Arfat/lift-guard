@@ -11,16 +11,16 @@ import 'swiper/css/navigation';
 // import { Navigation } from 'swiper';
 
 import image6 from '../../../assets/wel-4.jpg';
-import image1 from '../../../assets/m-1.jpg';
-import image2 from '../../../assets/ca-image-2.jpeg';
-import image3 from '../../../assets/ca-image-3.jpeg';
-import image4 from '../../../assets/ca-image-4.jpeg';
+import image1 from '../../../assets/ca-7.jpg';
+import image2 from '../../../assets/ca-8.jpg';
+import image3 from '../../../assets/ca-9.jpg';
+import image4 from '../../../assets/ca-10.jpg';
 import image5 from '../../../assets/ca-image-5.jpeg';
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className="pt-[66px] mb-20 mx-auto  font-oswald">
+        <div className=" mb-20 mx-auto  font-oswald">
             <Swiper
                 navigation={true}
                 modules={[Navigation]}
@@ -30,7 +30,7 @@ const Banner = () => {
                 <SwiperSlide>
                     <div className="relative w-full">
                         <img
-                            className="w-full h-auto max-h-[580px] object-cover"
+                            className="w-full h-auto max-h-screen object-cover"
                             src={image6}
                             alt="Welcome Slide"
                         />
@@ -68,35 +68,35 @@ const Banner = () => {
                 {/* Other Slides */}
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[380px] object-cover "
+                        className="w-full h-auto max-h-screen object-cover "
                         src={image1}
                         alt="Slide 1"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[580px] object-cover"
+                        className="w-full h-auto max-h-screen object-cover"
                         src={image2}
                         alt="Slide 2"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[580px] object-cover"
+                        className="w-full h-auto max-h-screen object-cover"
                         src={image3}
                         alt="Slide 3"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[580px] object-cover"
+                        className="w-full h-auto max-h-screen object-cover"
                         src={image4}
                         alt="Slide 4"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        className="w-full h-auto max-h-[580px] object-cover"
+                        className="w-full h-auto max-h-screen object-cover"
                         src={image5}
                         alt="Slide 5"
                     />
