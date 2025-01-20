@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules'; // শুধুমাত্র Pagination মডিউল রাখা হয়েছে
 import 'swiper/css';
@@ -6,10 +6,17 @@ import 'swiper/css/pagination';
 import data from '../../../serviceData';
 import ServiceProducts from './ServiceProducts/ServiceProducts';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 const Service = () => {
+    useEffect(() => {
+            AOS.init({
+                duration: 2000, // অ্যানিমেশন সময়কাল (মিলিসেকেন্ডে)
+                once: true, // একবারই অ্যানিমেশন হবে
+            });
+        }, []);
     return (
-        <div className="py-16 bg-gray-100 font-oswald">
+        <div data-aos="fade-up" className="py-16 bg-gray-100 font-oswald">
             <div className="container mx-auto px-6 lg:px-20">
                 {/* Section Title */}
                 <div className="text-center mb-10">

@@ -98,9 +98,9 @@ const Services = () => {
                 </h1>
                 <div className="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
 
-                    <div>
+                    <div data-aos="fade-up">
                         <div className="md:w-11/12 md:mx-auto">
-                            <div className="md:flex  items-center justify-center gap-10 shadow-lg  rounded-md bg-white p-6 border-t-4 border-yellow-500  mx-4 md:mx-auto mt-10">
+                            <div className="md:flex  items-center justify-center gap-10 shadow-lg  rounded-md bg-white p-6 border-t-4 border-yellow-500 w-full md:mx-auto mt-10">
                                 <div className="md:w-1/2 mx-auto">
                                     <h2 className="font-bold text-xl lg:text-4xl text-gray-700 mb-4 uppercase font-oswald">About Us</h2>
                                     <p className="text-gray-600 leading-relaxed text-justify font-oswald">
@@ -121,9 +121,9 @@ const Services = () => {
             {/*  */}
 
             <div className="relative flex flex-col w-11/12  items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  md:w-11/12 mx-auto ">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10  w-full md:mx-auto ">
 
-                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  md:w-11/12 md:mx-auto mx-5">
+                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  w-full md:mx-auto">
                         <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase">Our NDT Services</h2>
                         <p className="text-gray-600 leading-relaxed font-oswald text-lg">
                             We offer a comprehensive range of NDT services tailored to your needs:
@@ -136,7 +136,7 @@ const Services = () => {
                         </ul>
                     </div>
                     {/* card number 2 */}
-                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500 mx-5 md:w-11/12 md:mx-auto">
+                    <div className="shadow-lg rounded-md bg-white p-6 border-t-4 border-yellow-500  w-full md:mx-auto">
                         <h2 className="font-bold text-xl text-gray-700 mb-4 uppercase font-oswald">Industries We Serve</h2>
                         <p className="text-gray-600 leading-relaxed font-oswald">
                             We proudly offer our expert NDT solutions across various
