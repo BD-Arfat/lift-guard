@@ -18,7 +18,7 @@ import image4 from '../../../assets/ca-10.jpg';
 import image5 from '../../../assets/ca-image-5.jpeg';
 import { TypeAnimation } from 'react-type-animation';
 
-const Banner = () => {
+const   Banner = () => {
     return (
         <div className=" mb-20 mx-auto  font-oswald">
             <Swiper

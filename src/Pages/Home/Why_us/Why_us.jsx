@@ -1,28 +1,38 @@
 import React, { useEffect, useState } from 'react';
 import Choose from './Choose';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
 const Why_us = () => {
     const [chooses, setChooses] = useState([]);
+
     useEffect(() => {
         fetch('choose.json')
-            .then(res => res.json())
-            .then(data => setChooses(data))
-    }, [])
-    return (
-        <div className='md:w-11/12 md:mx-auto font-oswald'>
-            <section class=" py-20">
-                <div class="container mx-auto px-4">
-                    <div class="max-w-2xl mx-auto text-center">
-                        <h2 class="text-3xl font-bold mb-6">Why Choose Liftguard Solutions?</h2>
-                        <p class="text-gray-600 mb-12">At Liftguard Solutions, we are committed to ensuring the highest standards of safety and reliability for your operations. Here's why we stand out:
-                        </p>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
-                        {chooses.map(choose => <Choose key={choose.id} choose={choose}></Choose>)}
+            .then((res) => res.json())
+            .then((data) => setChooses(data));
 
-                    </div>
-                </div>
-            </section>
+        AOS.init({ duration: 1000, once: true }); // Initialize AOS with animation duration
+    }, []);
+
+    return (
+        <div className="container mx-auto px-4 py-8">
+            <div className="max-w-2xl mx-auto text-center md:mt-20 md:mb-10">
+                <h2 className="text-3xl text-blue-950 font-bold mb-6">Why Choose Liftguard Solutions?</h2>
+                <p className="text-blue-950 mb-12">
+                    At Liftguard Solutions, we are committed to ensuring the highest standards of safety and reliability for your operations. Here's why we stand out:
+                </p>
+            </div>
+            <div className="relative wrap overflow-hidden">
+                <div className="border-2 absolute border-opacity-20 border-gray-700 h-full left-1/2 transform -translate-x-1/2"></div>
+                {chooses.map((event, index) => (
+                    <Choose
+                        key={event.id}
+                        choose={event}
+                        alignment={index % 2 === 0 ? 'right' : 'left'}
+                        data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'} // Add animation
+                    />
+                ))}
+            </div>
         </div>
     );
 };

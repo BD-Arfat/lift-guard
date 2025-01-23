@@ -12,34 +12,34 @@ const Contact = () => {
         }, []);
   return (
     <div className="container mx-auto pt-20 px-4 md:px-16">
-      <h2 className="text-center text-3xl font-bold text-black font-oswald mt-2">
+      <h2 className="text-center text-3xl font-bold text-blue-950 font-oswald mt-2">
         Contact Us
       </h2>
-      <hr className="border border-black h-1 bg-black w-48 mx-auto mt-1 mb-10"/>
+      <hr className="border border-blue-950 h-1 bg-blue-950 w-48 mx-auto mt-1 mb-10"/>
       
       <div data-aos="fade-up" className="flex flex-col md:flex-row items-center gap-8 mb-10">
         {/* Left: Contact Information */}
         <div className="md:w-1/2 w-full">
-        <div className="text-lg text-gray-700 mb-4">
-            <h3 className="font-bold text-xl uppercase font-oswald">Lab:</h3>
+        <div className="text-lg mb-4">
+            <h3 className="font-bold text-xl uppercase font-oswald text-blue-950">Lab:</h3>
             <p className="font-oswald">Boro Kumira, Sitakunda, Chattogram</p>
           </div>
-          <div className="text-lg text-gray-700 mb-4 font-oswald">
-            <h3 className="font-bold text-xl uppercase">Head Office:</h3>
+          <div className="text-lg mb-4 font-oswald">
+            <h3 className="font-bold text-xl uppercase text-blue-950">Head Office:</h3>
             <p>BBC Steel Bhaban, South Shitalpur, Sitakunda, Chattogram</p>
           </div>
-          <div className="text-lg text-gray-700 mb-4 font-oswald">
-            <h3 className="font-bold text-xl uppercase">Corporate Office:</h3>
+          <div className="text-lg mb-4 font-oswald ">
+            <h3 className="font-bold text-xl uppercase text-blue-950">Corporate Office:</h3>
             <p>As-Salam Tower (11th Floor), 57, Agrabad C/A, Chattogram</p>
           </div>
            
-          <div className="text-lg text-gray-700 mb-4 font-oswald">
-            <h3 className="font-bold text-xl uppercase">Email:</h3>
+          <div className="text-lg mb-4 font-oswald ">
+            <h3 className="font-bold text-xl uppercase text-blue-950">Email:</h3>
             <p>solutionliftguard@gmail.com</p>
             <p>ranaliftguardsolution@gmail.com</p>
           </div>
-          <div className="text-lg text-gray-700 mb-4 font-oswald">
-            <h3 className="font-bold text-xl uppercase">Phone:</h3>
+          <div className="text-lg mb-4 font-oswald">
+            <h3 className="font-bold text-xl uppercase text-blue-950">Phone:</h3>
             <p>01321229107</p>
           </div>
         </div>

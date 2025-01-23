@@ -1,18 +1,20 @@
-import React from 'react';
+import { icon } from "leaflet";
 
-const Choose = ({ choose }) => {
-    const { name, proposition, icon } = choose;
+const Choose = ({ choose, alignment, ...props }) => {
+    const { name, proposition, icon, id } = choose;
     return (
-        <div>
-            <div className="w-full px-4 mb-8 font-oswald">
-                <div
-                    className="rounded-md bg-white shadow-md p-8 flex flex-col justify-between transform transition-transform duration-300 hover:scale-105 hover:shadow-xl w-full border-t-[#050bdf] border-t-4 border-l-[#050bdf] border-l-4"
-                    style={{ minHeight: '220px' }} // ন্যূনতম উচ্চতা নিশ্চিত করা
-                >
-                    <div className="text-4xl mb-4">{icon}</div> {/* আইকন */}
-                    <h3 className="text-xl font-bold mb-4">{name}</h3>
-                    <p className="text-gray-600 mb-4 text-xs">{proposition}</p>
-                </div>
+        <div
+            {...props}
+            className={`mb-8 flex justify-between items-center w-full ${alignment === 'left' ? 'flex-row-reverse' : ''}`}
+        >
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 rounded-full">
+                <h1 className="mx-auto font-semibold text-lg text-white">{id}</h1>
+            </div>
+            <div className="order-1 font-oswald bg-blue-950 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h1 className="text-2xl">{icon}</h1>
+                <h3 className="mb-3 font-bold mt-3 text-gray-300 text-xl">{name}</h3>
+                <p className="text-gray-300 leading-tight">{proposition}</p>
             </div>
         </div>
     );

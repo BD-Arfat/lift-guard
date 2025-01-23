@@ -20,10 +20,10 @@ const Service = () => {
             <div className="container mx-auto px-6 lg:px-20">
                 {/* Section Title */}
                 <div className="text-center mb-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">
                         Our Services
                     </h2>
-                    <p className="text-gray-600 text-sm md:text-lg">
+                    <p className="text-blue-950 text-sm md:text-lg">
                         Discover the range of services we offer to ensure your safety and efficiency in industrial operations.
                     </p>
                 </div>
@@ -52,7 +52,7 @@ const Service = () => {
                 <div className="text-center mt-10">
                     <Link
                         to={"/Services"}
-                        className="px-6 py-3 bg-blue-600 text-white rounded-lg text-sm md:text-base font-medium shadow-md hover:bg-blue-700 transition duration-300"
+                        className="px-6 py-3 bg-blue-950 text-white rounded-lg text-sm md:text-base font-medium shadow-md hover:bg-blue-700 transition duration-300"
                     >
                         View More Services
                     </Link>
