@@ -16,7 +16,7 @@ const Service = () => {
             });
         }, []);
     return (
-        <div data-aos="fade-up" className="py-16 bg-gray-100 font-oswald">
+        <div data-aos="fade-up" className="py-16 bg-gray-100 font-oswald mt-28">
             <div className="container mx-auto px-6 lg:px-20">
                 {/* Section Title */}
                 <div className="text-center mb-10">

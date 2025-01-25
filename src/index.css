@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevent scrollbar from showing */
+   /* Prevent scrollbar from showing */
   background-color: #f0f4f8; /* Light background */
   font-family: Arial, sans-serif;
   position: relative; /* Ensure the name moves correctly within the body */
