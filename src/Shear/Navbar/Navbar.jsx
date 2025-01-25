@@ -7,36 +7,36 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Scroll event listener to toggle background
+  // Handle scroll to add shadow and background color
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 0);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
+  // Toggle mobile menu
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
     document.body.style.overflow = isOpen ? "auto" : "hidden";
   };
 
+  // Close the mobile menu
   const closeMenu = () => {
     setIsOpen(false);
     document.body.style.overflow = "auto";
   };
 
-  const activeLinkClass = "text-yellow-400";
-  const linkClass = "block px-4 py-2 text-slate-400 hover:bg-gray-600 hover:text-yellow-400";
+  // Navbar link styles
+  const activeLinkClass = "text-yellow-400 border-b-2 border-yellow-400";
+  const linkClass =
+    "block px-4 py-2 text-slate-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 transition-all duration-300";
 
-  const item = (
+  // Links for both desktop and mobile
+  const navLinks = (
     <>
       <NavLink
         to="/"
@@ -54,7 +54,7 @@ const Navbar = () => {
         }
         onClick={closeMenu}
       >
-        Abouts
+        About
       </NavLink>
       <NavLink
         to="/Services"
@@ -83,20 +83,24 @@ const Navbar = () => {
         isScrolled ? "bg-gray-800 shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
+      <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <div className="text-2xl font-bold">
-          <Link to={"/"}>
-            <img className="w-16 rounded-md" src={logo} alt="Logo" />
+        <div>
+          <Link to="/">
+            <img
+              className="w-14 md:w-16 rounded-md shadow-lg"
+              src={logo}
+              alt="Logo"
+            />
           </Link>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">{item}</div>
+        <div className="hidden md:flex space-x-8 text-lg">{navLinks}</div>
 
         {/* Mobile Menu Icon */}
         <div
-          className="md:hidden text-2xl cursor-pointer"
+          className="md:hidden text-2xl text-white cursor-pointer"
           onClick={toggleNavbar}
         >
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -105,8 +109,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-700 fixed top-16 left-0 w-full h-screen z-40">
-          <div className="flex flex-col space-y-2 py-4">{item}</div>
+        <div className="md:hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-40">
+          <div className="flex flex-col space-y-4 items-center justify-center h-full text-lg text-white">
+            {navLinks}
+          </div>
         </div>
       )}
     </nav>

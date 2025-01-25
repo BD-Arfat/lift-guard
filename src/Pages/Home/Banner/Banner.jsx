@@ -68,17 +68,17 @@ const Banner = () => {
                 {/* Other Slides */}
                 <SwiperSlide>
                     <img
-                        className="w-full h-[280px] md:h-auto max-h-screen object-cover "
-                        // src={image1}
+                        className="w-full h-[280px] md:h-auto max-h-screen object-cover"
                         src={image1}
                         alt="Slide 1"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
-                    <div className="absolute inset-0 left-[250px] md:left-[500px] md:top-[170px] top-[90px] lg:left-[630px] lg:top-[230px] flex justify-center items-center">
-                        <h1 className="text-white text-lg md:text-3xl lg:text-4xl font-bold">
-                            LiftGuard Solution
-                        </h1>
-                    </div></div>
+                        <div className="absolute bottom-20 right-4 md:bottom-36 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
@@ -87,11 +87,12 @@ const Banner = () => {
                         alt="Slide 2"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
-                    <div className="absolute inset-0 left-[250px] md:left-[500px] md:top-[170px] top-[90px] lg:left-[630px] lg:top-[230px] flex justify-center items-center">
-                        <h1 className="text-white text-lg md:text-3xl lg:text-4xl font-bold">
-                            LiftGuard Solution
-                        </h1>
-                    </div></div>
+                        <div className="absolute bottom-20 right-4 md:bottom-36 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
@@ -100,11 +101,12 @@ const Banner = () => {
                         alt="Slide 3"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
-                    <div className="absolute inset-0 left-[250px] md:left-[500px] md:top-[200px] top-[90px] lg:left-[630px] lg:top-[270px] flex justify-center items-center">
-                        <h1 className="text-white text-lg md:text-3xl lg:text-4xl font-bold">
-                            LiftGuard Solution
-                        </h1>
-                    </div></div>
+                        <div className="absolute bottom-20 right-4 md:bottom-32 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
@@ -113,11 +115,12 @@ const Banner = () => {
                         alt="Slide 4"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
-                    <div className="absolute inset-0 left-[250px] md:left-[500px] md:top-[200px] top-[90px] lg:left-[630px] lg:top-[270px] flex justify-center items-center">
-                        <h1 className="text-white text-lg md:text-3xl lg:text-4xl font-bold">
-                            LiftGuard Solution
-                        </h1>
-                    </div></div>
+                        <div className="absolute bottom-20 right-4 md:bottom-32 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
@@ -126,12 +129,14 @@ const Banner = () => {
                         alt="Slide 5"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
-                    <div className="absolute inset-0 left-[250px] md:left-[500px] md:top-[170px] top-[90px] lg:left-[630px] lg:top-[230px] flex justify-center items-center">
-                        <h1 className="text-white text-lg md:text-3xl lg:text-4xl font-bold">
-                            LiftGuard Solution
-                        </h1>
-                    </div></div>
+                        <div className="absolute bottom-20 right-4 md:bottom-36 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
                 </SwiperSlide>
+
             </Swiper>
         </div>
     );
