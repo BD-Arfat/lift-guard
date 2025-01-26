@@ -15,7 +15,7 @@ const Home = () => {
     };
 
     return (
-        <div>
+        <div className='overflow-hidden'>
             {/* Add an ID to the Banner section */}
             <div id="banner-section">
                 <Banner />
