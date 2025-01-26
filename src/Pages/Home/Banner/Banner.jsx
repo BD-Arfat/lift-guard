@@ -11,11 +11,12 @@ import 'swiper/css/navigation';
 // import { Navigation } from 'swiper';
 
 import image6 from '../../../assets/wel-4.jpg';
-import image1 from '../../../assets/pressure-test-bg.jpg';
-import image2 from '../../../assets/snapedit_1737795608765.jpg';
-import image3 from '../../../assets/snapedit_1737795650141.jpg';
-import image4 from '../../../assets/snapedit_1737795683318.jpg';
 import image5 from '../../../assets/snapedit_1737795719917.jpg';
+import imagea from '../../../assets/image.png'
+import imageb from '../../../assets/image2.jpg'
+import imagec from '../../../assets/image3.jpg'
+import imaged from '../../../assets/imaged.jpg'
+import imagee from '../../../assets/imagea.jpg'
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
@@ -64,12 +65,26 @@ const Banner = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        className="w-full h-[280px] md:h-auto max-h-screen object-cover"
+                        src={imaged}
+                        alt="Slide 5"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
+                        <div className="absolute bottom-20 right-4 md:bottom-36 md:right-8 flex justify-end items-end">
+                            <h1 className="text-white text-right text-xs sm:text-lg md:text-3xl lg:text-4xl font-bold">
+                                LiftGuard Solution
+                            </h1>
+                        </div>
+                    </div>
+                </SwiperSlide>
 
                 {/* Other Slides */}
                 <SwiperSlide>
                     <img
                         className="w-full h-[280px] md:h-auto max-h-screen object-cover"
-                        src={image1}
+                        src={imagea}
                         alt="Slide 1"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
@@ -83,7 +98,7 @@ const Banner = () => {
                 <SwiperSlide>
                     <img
                         className="w-full h-[280px] md:h-auto max-h-screen object-cover"
-                        src={image2}
+                        src={imageb}
                         alt="Slide 2"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
@@ -97,7 +112,7 @@ const Banner = () => {
                 <SwiperSlide>
                     <img
                         className="w-full h-[280px] md:h-auto max-h-screen object-cover"
-                        src={image3}
+                        src={imagec}
                         alt="Slide 3"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
@@ -110,9 +125,9 @@ const Banner = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        className="w-full h-[280px] md:h-auto max-h-screen object-cover"
-                        src={image4}
-                        alt="Slide 4"
+                        className="w-full h-[280px] md:h-[100vh] max-h-screen object-cover"
+                        src={imagee}
+                        alt="Slide 3"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/90">
                         <div className="absolute bottom-20 right-4 md:bottom-32 md:right-8 flex justify-end items-end">
@@ -122,6 +137,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+                
                 <SwiperSlide>
                     <img
                         className="w-full h-[280px] md:h-auto max-h-screen object-cover"
