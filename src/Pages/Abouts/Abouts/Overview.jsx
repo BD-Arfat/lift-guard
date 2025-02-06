@@ -46,10 +46,10 @@ const Overview = () => {
             {/* Additional Info Section */}
             <div data-aos="fade-up" className="mt-16 mx-5  max-w-6xl md:mx-auto">
                 <div className="space-y-6">
-                    <p className="text-lg leading-relaxed font-oswald text-blue-950">
+                    <p className="text-lg leading-relaxed font-oswald md:ps-11 lg:ps-0 text-blue-950">
                         With a team of dedicated engineers, technicians, and safety professionals, we combine expertise and innovation to meet international safety standards. Our state-of-the-art equipment, including high-capacity load cells and tensile testing machines, ensures precision and reliability in every project.
                     </p>
-                    <p className="text-lg leading-relaxed font-oswald text-blue-950">
+                    <p className="text-lg leading-relaxed font-oswald md:ps-11 lg:ps-0 text-blue-950">
                         Choose Liftguard Solutions for a safer, more efficient workplace. Together, let’s build a future where safety is paramount.
                     </p>
                 </div>

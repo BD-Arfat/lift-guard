@@ -9,9 +9,10 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex flex-col items-center md:items-start">
           <img src={logo} alt="Logo" className="w-16 h-16 rounded-md mb-2" />
-          <span className="text-xl font-semibold text-white">YourCompany</span>
+          <span className="text-xl font-semibold text-white">LIFTGUARD SOLUTION</span>
           <p className="mt-4 text-sm text-gray-400 text-center md:text-left">
-            Guardian of Equipment Safety
+          The Guardian of Equipment Safety ensures protection and reliability,
+          Keeping machines secure, preventing risks tirelessly. ⚙️🔒
           </p>
         </div>
 
