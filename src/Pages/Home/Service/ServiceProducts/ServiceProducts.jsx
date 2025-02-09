@@ -12,7 +12,7 @@ const ServiceProducts = ({ service }) => {
 
   return (
     <div className="flex justify-center py-4">
-      <div className="relative w-64">
+      <div className="relative w-full">
         {/* Rotating Border */}
         <div className="absolute inset-0 z-0 border-animation rounded-xl"></div>
 

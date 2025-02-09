@@ -17,7 +17,7 @@ const Service = () => {
         }, []);
     return (
         <div data-aos="fade-up" className="py-16 bg-gray-100 font-oswald mt-28">
-            <div className="container mx-auto px-6 lg:px-20">
+            <div className="max-w-7xl mx-auto px-6 lg:px-20">
                 {/* Section Title */}
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">
@@ -37,6 +37,7 @@ const Service = () => {
                         640: { slidesPerView: 1 },
                         768: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },
+                        1200: { slidesPerView: 4 },
                     }}
                     modules={[Pagination]} // শুধুমাত্র Pagination মডিউল যুক্ত করা হয়েছে
                     className="mySwiper"
